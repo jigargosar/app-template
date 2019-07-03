@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf node_modules build dist",
     "start": "nodemon -w webpack.config.js -w tsconfig.json -x webpack-dev-server -- -d --hot"
   },
   "keywords": [],
