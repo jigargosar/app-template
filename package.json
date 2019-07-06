@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -w webpack.config.js -w tsconfig.json -x webpack-dev-server -- -d --hot"
+    "start": "nodemon -w webpack.config.js -w tsconfig.json -w package-lock.json -x webpack-dev-server -- -d --progress"
   },
   "keywords": [],
   "author": "",
