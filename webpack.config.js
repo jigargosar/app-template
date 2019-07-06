@@ -2,6 +2,7 @@ var path = require('path')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
+// https://webpack.js.org/configuration/
 module.exports = function(env = {}, argv) {
   console.log('env:', env)
   const isProduction = argv.mode === 'production'
@@ -23,6 +24,7 @@ module.exports = function(env = {}, argv) {
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({ template: './src/index.html' }),
     ],
+    // https://webpack.js.org/configuration/stats/
     stats: {
       children: false,
       modules: false,
