@@ -25,9 +25,13 @@ module.exports = function(env = {}, argv) {
     ],
     stats: {
       children: false,
+      modules: false,
     },
     // stats: 'errors-warnings',
     devtool: isProduction ? 'source-map' : 'eval-source-map',
-    devServer: {},
+    devServer: {
+      overlay: true,
+      hot: true,
+    },
   }
 }
