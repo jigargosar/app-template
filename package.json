@@ -23,17 +23,5 @@
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "trailingComma": "all",
-    "arrowParens": "avoid",
-    "singleQuote": true,
-    "semi": false,
-    "printWidth": 75,
-    "bracketSpacing": true,
-    "jsxBracketSameLine": false,
-    "endOfLine": "lf"
   }
 }
