@@ -27,6 +27,9 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "tachyons": "^4.11.1"
+    "csstips": "^1.1.0",
+    "csx": "^9.1.0",
+    "tachyons": "^4.11.1",
+    "typestyle": "^2.0.3"
   }
 }
