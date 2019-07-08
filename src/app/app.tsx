@@ -7,7 +7,7 @@ export const FCol: React.FC = ({ children }) => (
 )
 
 export const FRow: React.FC = ({ children }) => (
-  <div className="flex flex-col">{children}</div>
+  <div className="flex flex-row">{children}</div>
 )
 
 const App: React.FC = function() {
