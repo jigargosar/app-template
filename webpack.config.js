@@ -25,11 +25,11 @@ module.exports = function(env = {}, argv) {
       new HtmlWebpackPlugin({ template: './src/index.html' }),
     ],
     // https://webpack.js.org/configuration/stats/
+    // stats: 'errors-warnings',
     stats: {
       children: false,
       modules: false,
     },
-    // stats: 'errors-warnings',
     devtool: isProduction ? 'source-map' : 'eval-source-map',
     devServer: {
       overlay: true,
