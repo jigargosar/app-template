@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import 'tachyons'
+import './main.css'
 
 export const FCol: React.FC = ({ children }) => (
   <div className="flex flex-col">{children}</div>
