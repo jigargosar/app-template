@@ -23,4 +23,6 @@ export const frow3 = frow(space3)
 const fcol = (margin: string | number) =>
   style(vertical, verticallySpaced(margin))
 
+export const fcol1 = fcol(space1)
+export const fcol2 = fcol(space2)
 export const fcol3 = fcol(space3)

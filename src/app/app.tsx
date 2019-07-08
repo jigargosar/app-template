@@ -7,13 +7,13 @@ normalize()
 setupPage('#root')
 
 import { classes } from 'typestyle'
-import { frow2 } from './fcss'
+import { frow2, fcol3 } from './fcss'
 
 const App: React.FC = function() {
   return (
-    <div className="pa3">
+    <div className={classes('pa3', fcol3)}>
       <div>Hello World</div>
-      <div className={classes(frow2)}>
+      <div className={classes(fcol3)}>
         <div>a</div>
         <div>a</div>
         <div>a</div>
