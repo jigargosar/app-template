@@ -14,6 +14,10 @@ module.exports = function(env = {}, argv) {
     module: {
       rules: [
         {
+          test: /\.css$/,
+          loader: ['style-loader', 'css-loader'],
+        },
+        {
           test: /\.tsx?$/,
           include: path.resolve(__dirname, 'src'),
           loader: 'ts-loader',
