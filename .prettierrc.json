@@ -8,5 +8,9 @@
   "printWidth": 75,
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "htmlWhitespaceSensitivity": "ignore",
+  "jsxSingleQuote": false,
+  "proseWrap": "always"
 }
