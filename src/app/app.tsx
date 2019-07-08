@@ -2,6 +2,14 @@ import React from 'react'
 import { render } from 'react-dom'
 import 'tachyons'
 
+export const FCol: React.FC = ({ children }) => (
+  <div className="flex flex-col">{children}</div>
+)
+
+export const FRow: React.FC = ({ children }) => (
+  <div className="flex flex-col">{children}</div>
+)
+
 const App: React.FC = function() {
   return (
     <div>
