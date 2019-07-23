@@ -11,6 +11,7 @@
   "description": "webpack react app template",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "nodemon -w webpack.config.js -w tsconfig.json -w package-lock.json -x webpack-dev-server"
   },
@@ -18,6 +19,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/ramda": "^0.26.18",
+    "csstips": "^1.1.0",
+    "csx": "^9.1.0",
+    "ramda": "^0.26.1",
+    "tachyons": "^4.11.1",
+    "typestyle": "^2.0.3",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "clean-webpack-plugin": "^3.0.0",
@@ -32,13 +39,5 @@
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
-  },
-  "dependencies": {
-    "@types/ramda": "^0.26.18",
-    "csstips": "^1.1.0",
-    "csx": "^9.1.0",
-    "ramda": "^0.26.1",
-    "tachyons": "^4.11.1",
-    "typestyle": "^2.0.3"
   }
 }
