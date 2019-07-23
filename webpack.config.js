@@ -9,17 +9,14 @@ module.exports = function(env = {}, argv) {
   return {
     entry: './src/app/app.tsx',
     resolve: {
-      extensions: ['.js', '.ts', '.tsx'],
+      extensions: ['.js', '.ts', '.tsx', '.jsx'],
     },
     module: {
       rules: [
+        { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
         {
-          test: /\.css$/,
-          loader: ['style-loader', 'css-loader'],
-        },
-        {
-          test: /\.tsx?$/,
-          include: path.resolve(__dirname, 'src'),
+          test: /\.[jt]sx?$/,
+          include: path.resolve('src'),
           loader: 'ts-loader',
         },
       ],
