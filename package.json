@@ -18,7 +18,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@types/ramda": "^0.26.18",
     "csstips": "^1.1.0",
     "csx": "^9.1.0",
