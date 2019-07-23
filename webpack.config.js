@@ -7,7 +7,7 @@ module.exports = function(env = {}, argv) {
   console.log('env:', env)
   const isProduction = argv.mode === 'production'
   return {
-    entry: './src/app/app.tsx',
+    entry: './src/index.jsx',
     resolve: {
       extensions: ['.js', '.ts', '.tsx', '.jsx'],
     },
