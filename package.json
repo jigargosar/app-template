@@ -1,7 +1,15 @@
 {
-  "name": "typescript-react-app",
-  "version": "1.0.0",
+  "name": "app-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigargosar/app-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jigargosar/app-template/issues"
+  },
+  "homepage": "https://github.com/jigargosar/app-template#readme",
   "description": "",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -w webpack.config.js -w tsconfig.json -w package-lock.json -x webpack-dev-server"
@@ -26,8 +34,10 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@types/ramda": "^0.26.18",
     "csstips": "^1.1.0",
     "csx": "^9.1.0",
+    "ramda": "^0.26.1",
     "tachyons": "^4.11.1",
     "typestyle": "^2.0.3"
   }
