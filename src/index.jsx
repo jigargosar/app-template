@@ -4,8 +4,8 @@ import './index.css'
 
 const App = function() {
   return (
-    <div className="center pa3 vs3">
-      <div className="pa3 bg-black whtie">Hello World</div>
+    <div className="center pa3 vs3 w-100">
+      <div className="pa3 br3 bg-black white">Hello World</div>
     </div>
   )
 }
