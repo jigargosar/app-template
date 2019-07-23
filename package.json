@@ -8,7 +8,7 @@
     "url": "https://github.com/jigargosar/app-template/issues"
   },
   "homepage": "https://github.com/jigargosar/app-template#readme",
-  "description": "",
+  "description": "webpack react app template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
